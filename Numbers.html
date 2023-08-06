@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Numbers</title>
+    <link rel="stylesheet" href="Numbers.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="caption">
+            <h1 style="font-size: 1.7em; padding-bottom: 10px;">Number Guessing Game</h1>
+            <h2 style="font-size: 0.8em;">This application is programmed to generate random number, and you gotta find
+                it to win.</h2>
+            <h3 style="font-size: 0.7em; opacity: 70%;">*Only 10 attempts are given</h3>
+        </div>
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+        <div class="container1">
+        <label style="padding-bottom: 10px; font-size: 1.1em;" for="guessField">Enter a guess: </label>
+        <input type="text" id="guessField" class="guessField" />
+    </div>
+
+        <input type="submit" value="Submit guess" class="guessSubmit" />
+        <button class="press">Press me</button>
+</div>
+    <script src="./Numbers.js"></script>
+</body>
+
+</html>
